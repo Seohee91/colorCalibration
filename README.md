@@ -1,5 +1,6 @@
 # colorCalibration
 static void rootfunc(void * arg) {
+	
 	glcd_init();  //glcd초기화
 
 	ev3_sensor_init(0, COL_REFLECT);  //ev3센서 COLOR모드 초기화
